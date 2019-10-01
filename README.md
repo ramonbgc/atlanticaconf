@@ -1,2 +1,2 @@
 # atlanticaconf
-Repo for the AtlanticaConf
+Repo for the AtlanticaConf IaC+DevOps Azure demo
