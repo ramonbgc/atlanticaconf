@@ -1,13 +1,13 @@
-# vars definition and default values
-variable "project" {
-    type = string
-    default = "atlanticaconf"
+# used vars
+project = {
+    name = "atlanticaconf"
+    short_name = "atl"
 }
-variable "region" {
-    type = string
-    default = "westeurope"
+region = {
+    short_name = "ew"
+    name = "westeurope"
 }
-variable "tags" {
-    type = string
-    default = "ramongc"
+tags = {
+    environment = "conf"
+    owner = "ramongc"
 }
