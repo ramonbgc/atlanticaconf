@@ -15,5 +15,5 @@ resource "azurerm_storage_account" "sac" {
 resource "azurerm_storage_container" "sc" {
   name                  = "destination"
   storage_account_name  = "${azurerm_storage_account.sac.name}"
-  container_access_type = "private"
+  container_access_type = "container"
 }
