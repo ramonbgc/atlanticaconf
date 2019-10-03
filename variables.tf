@@ -8,3 +8,6 @@ variable "region" {
 variable "tags" {
     type = "map"
 }
+variable "environment" {
+    type = "string"
+}
