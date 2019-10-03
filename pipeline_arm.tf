@@ -190,7 +190,7 @@ DEPLOY
   parameters = {
     "AzureBlobStorageSource_connectionString" = "DefaultEndpointsProtocol=https;AccountName=rgcgeneralusesa;AccountKey=k2XpQAGBQhvMvu7fbq7yWeHx7nnXmh7gojlCm0hzZUHEkZpXlMSFZ+ZycmOWOT/TYn2n5byhzsvUyWSzxfUoHA==;EndpointSuffix=core.windows.net"
     "AzureBlobStorageDest_servicePrincipalKey" = "trsAMqKjE-Y_Fls9p/:hCwYwdnpNA394"
-    "AzureBlobStorageDest_properties_typeProperties_serviceEndpoint" = "${azurerm_storage_account.sac.output.primary_blob_endpoint}"
+    "AzureBlobStorageDest_properties_typeProperties_serviceEndpoint" = "${azurerm_storage_account.sac.primary_blob_endpoint}"
     "AzureBlobStorageDest_properties_typeProperties_tenant" = "712b9271-3f93-4d32-99e4-760569291c1a"
     "AzureBlobStorageDest_properties_typeProperties_servicePrincipalId" = "d0e904ea-12e2-4200-bc74-3849bbb1f5c4"
   }
