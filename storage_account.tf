@@ -1,5 +1,5 @@
 resource "azurerm_storage_account" "sac" {
-  name = "${var.project.name}-${var.environment}-sa01"
+  name = "${var.project.name}${var.environment}sa01"
   resource_group_name       = "${azurerm_resource_group.rg.name}"
   location                  = "${azurerm_resource_group.rg.location}"
 
