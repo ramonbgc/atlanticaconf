@@ -1,6 +1,6 @@
 # Configure the provider to reach Azure
 provider "azurerm" {
-    version = "=1.34.0"
+    version = "~>1.34.0"
 
   ### if using tfvars and not the Terraform Cloud
   # subscription_id = "${var.subscription_id}"
