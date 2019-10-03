@@ -1,13 +1,27 @@
 # general vars
 variable "project" {
-    type = "map"
+    type = map
 }
 variable "region" {
-    type = "map"
+    type = map
 }
 variable "tags" {
-    type = "map"
+    type = map
 }
 variable "environment" {
-    type = "string"
+    type = string
 }
+variable "dsConnectionString" {
+    type = string
+}
+variable "servicePrincipalKey" {
+    type = string
+}
+variable "servicePrincipalId" {
+    type = string
+}
+variable "tenantId" {
+    type = string
+}
+
+
