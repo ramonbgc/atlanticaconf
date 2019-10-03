@@ -7,6 +7,7 @@ resource "azurerm_storage_account" "sac" {
   account_tier              = "Standard"
   access_tier               = "Hot"
   account_replication_type  = "LRS"
+  is_hns_enabled            = true
 
   tags                      = "${var.tags}"
 }
