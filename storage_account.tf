@@ -8,6 +8,8 @@ resource "azurerm_storage_account" "sac" {
   access_tier               = "Hot"
   account_replication_type  = "LRS"
 
+  enable_blob_encryption    = false
+
   tags                      = "${var.tags}"
 }
 
