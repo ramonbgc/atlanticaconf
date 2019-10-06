@@ -26,11 +26,11 @@ resource "azurerm_template_deployment" "pipe" {
         },
         "AzureBlobStorageDest_properties_typeProperties_tenant": {
             "type": "string",
-            "defaultValue": "712b9271-3f93-4d32-99e4-760569291c1a"
+            "defaultValue": "CHANGE THIS TENANT ID"
         },
         "AzureBlobStorageDest_properties_typeProperties_servicePrincipalId": {
             "type": "string",
-            "defaultValue": "d0e904ea-12e2-4200-bc74-3849bbb1f5c4"
+            "defaultValue": "CHANGE THIS SPN ID"
         }
     },
     "variables": {
